@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* border: 1px solid red; */
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 98%;
+            height: 100vh;
+            text-align: center;
+            background: linear-gradient(lightblue, lightgreen);
+        }
+
+        .container {
+            width: 100%;
+            height: auto;
+            margin: auto;
+        }
+
+        nav {
+            margin: 3rem 1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #logo {
+            margin: -;
+            width: 120px;
+            height: 120px;
+            border: 6px dashed red;
+            border-radius: 50%;
+        }
+
+        .nav-links {
+            margin: 10px 5px;
+            padding: 5px 10px;
+            background: rgba(255, 255, 200, 0.8);
+            border: 2px solid rgb(48, 51, 52);
+            border-radius: 5px;
+        }
+
+        .three-box {
+            width: 80%;
+            height: 620px;
+            display: flex;
+            margin: auto;
+            border: 3px solid black;
+        }
+
+        .left {
+            width: 180px;
+            height: 540px;
+            margin: 25px auto;
+            border: 2px solid red;
+        }
+
+        .center {
+            width: 180px;
+            height: 540px;
+            margin: 25px auto;
+            border: 2px solid red;
+        }
+
+        .right {
+            width: 180px;
+            height: 540px;
+            margin: 25px auto;
+            border: 2px solid red;
+        }
+        footer {
+            margin-top: 5%;
+            min-height: 80px;
+            background: purple;
+        }
+
+        @media (max-width: 1079px) {
+            .three-box {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+
+
+    <title>Gryffindor Website Adventures</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="#" class="links" id="logo">Gryffindor</a>
+            <div class="right-links">
+                <a href="#" class="nav-links">About</a>
+                <a href="#" class="nav-links">Contact</a>
+            </div>
+        </nav>
+        <img src="" alt="">
+        <main class="three-box">
+            <div class="left"></div>
+            <div class="center"></div>
+            <div class="right"></div>
+        </main>
+        <footer>
+            &copy Gryffidor 2022
+        </footer>
+    </div>
+</body>
+
+</html>
